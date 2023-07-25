@@ -57,7 +57,7 @@ p {
 
 .navigation-links a {
   margin: 20px;
-  border-radius: 4px;
+  border-radius: 30px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
@@ -69,7 +69,7 @@ p {
   box-shadow: var(--box-shadow);
   color: var(--best-color);
   margin: 5px;
-  border-radius: 4px;
+  border-radius: 30px;
   padding: 12px 15px;
   text-decoration: none;
 }
