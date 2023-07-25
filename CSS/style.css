@@ -34,7 +34,7 @@ h1 {
 
 h2 {
   font-size: 48px;
-  margin-top: 4%;
+  margin-top: 5%;
 }
 
 h3 {
@@ -70,7 +70,7 @@ p {
 .primary-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: var(--best-color);
   margin: 5px;
   border-radius: 4px;
   padding: 12px 15px;
@@ -98,7 +98,6 @@ p {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
 }
@@ -121,12 +120,13 @@ a:hover {
   background-color: #212529;
 }
 .nav-link {
-  color: rgb(154, 133, 13) !important;
+  color: #887023 !important;
 }
 .vhm-logo {
   width: 70px;
   height: 40px;
   border-radius: 15%;
+  opacity: 0.7;
 }
 .bs-groove {
   border-style: groove;
