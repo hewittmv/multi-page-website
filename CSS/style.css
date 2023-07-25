@@ -2,6 +2,22 @@
   --primary-color: #212529;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --best-color: #d4af37;
+  --gradient: linear-gradient(190deg, #d4af37, #e4cc7f, #887023);
+  --text-background: linear-gradient(to left, darkblue, darkorchid);
+}
+.text-gradient-gold {
+  --text-background: linear-gradient(to left, #887023, #f8f1dd);
+}
+.text-gradient {
+  color: inherit;
+
+  @supports (--css: variables) {
+    background: var(--text-background);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
 }
 
 h1,
