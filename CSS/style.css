@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #212529;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -104,4 +104,9 @@ a:hover {
 }
 .nav-link {
   color: rgb(154, 133, 13) !important;
+}
+.vhm-logo {
+  width: 70px;
+  height: 40px;
+  border-radius: 15%;
 }
