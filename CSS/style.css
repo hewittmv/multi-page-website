@@ -99,3 +99,9 @@ img {
 #contact {
   text-align: center;
 }
+a:hover {
+  color: rgb(154, 133, 13);
+}
+.nav-link {
+  color: rgb(154, 133, 13) !important;
+}
