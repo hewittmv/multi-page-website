@@ -131,3 +131,9 @@ a:hover {
 .bs-groove {
   border-style: groove;
 }
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 15%;
+  }
+}
