@@ -142,4 +142,7 @@ a:hover {
   .email-link {
     font-size: 17px;
   }
+  p {
+    text-align: center;
+  }
 }
