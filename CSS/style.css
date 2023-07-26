@@ -145,4 +145,9 @@ a:hover {
   p {
     text-align: center;
   }
+  .heading,
+  .primary-link {
+    display: flex;
+    justify-content: center;
+  }
 }
