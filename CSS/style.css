@@ -119,14 +119,15 @@ a:hover {
   background-color: #212529;
 }
 .nav-link {
-  color: #887023 !important;
+  color: rgb(213 195 129) !important;
 }
 .vhm-logo {
-  width: 70px;
+  width: 80px;
   height: 40px;
   border-radius: 15%;
-  opacity: 0.7;
+  opacity: 0.8;
   border: none;
+  border-radius: 40%;
 }
 .bs-groove {
   border-style: groove;
